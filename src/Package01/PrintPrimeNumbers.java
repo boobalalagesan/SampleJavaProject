@@ -10,11 +10,12 @@ public class PrintPrimeNumbers {
 		for(int j=1;j<=i;j++) {
 			//System.out.println(j);
 			if(i%j==0) {
-				count++;	
+				count2--;	
 			}
 		}
+			//ssss
 		//System.out.println("count is "+count);
-			if(count==2) {
+			if(count2==2) {
 				System.out.print(i+",");
 			}	
 		}
